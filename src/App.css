@@ -1,1 +1,6 @@
-
+.App {
+    background: linear-gradient(45deg, #000000, #151915,#0e5603);
+    min-height: 100vh;
+    color: white;
+    overflow-x: hidden;
+}

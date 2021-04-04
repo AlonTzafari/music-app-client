@@ -1,7 +1,7 @@
 [
     {
       "name":"Rap God",
-      "created_at":{},
+      "created_at":"2021-01-01",
       "cover_img":"rap.jpg",
       "songs":[
         "gOMhN-hfMtY",
@@ -15,7 +15,7 @@
     },
     {
       "name":"Rock N Roll",
-      "created_at":{},
+      "created_at":"2021-01-03",
       "cover_img":"rock.jpg",
       "songs":[
         "o1tj2zJ2Wvg",
@@ -28,7 +28,7 @@
     },
     {
       "name":"Mix It",
-      "created_at":{},
+      "created_at":"2021-02-02",
       "cover_img":"mix.jpg",
       "songs":[
         "6ONRf7h3Mdk",
@@ -40,7 +40,7 @@
     },
     {
       "name":"Pop",
-      "created_at":{},
+      "created_at":"2021-06-01",
       "cover_img":"pop.jpg",
       "songs":[
         "87gWaABqGYs",
@@ -53,7 +53,7 @@
     },
     {
       "name":"Road Trip",
-      "created_at":{},
+      "created_at":"2021-03-03",
       "cover_img":"road_trip.jpg",
       "songs":[
         "Shape of You",
