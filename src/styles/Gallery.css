@@ -2,7 +2,13 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    width: 95vw;
-    justify-content: space-between;
+    min-width: 95vw;
+    width: fit-content;
+    justify-content: start;
     padding: 0;
+}
+
+.galleryTitle {
+    font-size: 1.2em;
+    margin-bottom: 0.1em;
 }

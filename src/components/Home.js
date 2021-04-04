@@ -9,10 +9,10 @@ import '../styles/Home.css'
 function Home() {
     return (
         <div className="home">
-            <Gallery items={songs}/>
-            <Gallery items={playlists}/>
-            <Gallery items={artists}/>
-            <Gallery items={albums}/>
+            <Gallery items={songs} type="songs" title="Top Songs"/>
+            <Gallery items={playlists} type="playlists" title="Top Playlists"/>
+            <Gallery items={artists} type="artists" title="Top Artists"/>
+            <Gallery items={albums} type="albums" title="Top Albums"/>
         </div>
     )
 }
