@@ -1,5 +1,6 @@
 [
     {
+      "id":"huH87yHh7",
       "name":"Eminem",
       "cover_img":"eminem.png",
       "albums":[
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "id":"h787Ghu",
       "name":"Arctic Monkeys",
       "cover_img":"arctic_monkeys.jpg",
       "albums":[
@@ -26,6 +28,7 @@
       ]
     },
     {
+      "id":"g67GYG6578",
       "name":"Guns n' Roses",
       "cover_img":"guns_n_roses.png",
       "albums":[
@@ -39,6 +42,7 @@
       ]
     },
     {
+      "id":"j78hYGFh8",
       "name":"Travis Scott",
       "cover_img":"scott_travis.jpg",
       "albums":[
@@ -52,6 +56,7 @@
       ]
     },
     {
+      "id":"dfghkjG786",
       "name":"Ed Sheeran",
       "cover_img":"ed_sheeran.png",
       "albums":[

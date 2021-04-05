@@ -14,3 +14,4 @@ function Gallery({items, type, title}) {
 }
 
 export default Gallery
+

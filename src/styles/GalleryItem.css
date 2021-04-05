@@ -23,3 +23,8 @@
 .description {
     margin-top: 0.1em;
 }
+
+.galleryItem > a {
+    color: white;
+    text-decoration: none;
+}
