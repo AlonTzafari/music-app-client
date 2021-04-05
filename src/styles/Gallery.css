@@ -4,7 +4,7 @@
     flex-direction: row;
     min-width: 95vw;
     width: fit-content;
-    justify-content: start;
+    justify-content: flex-start;
     padding: 0;
 }
 
