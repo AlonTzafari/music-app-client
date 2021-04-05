@@ -4,3 +4,7 @@
     color: white;
     overflow-x: hidden;
 }
+
+.page {
+    padding-top: 80px;
+}

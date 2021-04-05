@@ -1,9 +1,11 @@
 import React from 'react'
+import {useParams} from 'react-router-dom'
 
-function Song() {
+function Song(props) {
+    const {id} = useParams();
     return (
-        <div>
-            
+        <div className="song page">
+            {`song ID: ${id}`}
         </div>
     )
 }

@@ -8,7 +8,7 @@ import '../styles/Home.css'
 
 function Home() {
     return (
-        <div className="home">
+        <div className="home page">
             <Gallery items={songs} type="songs" title="Top Songs"/>
             <Gallery items={playlists} type="playlists" title="Top Playlists"/>
             <Gallery items={artists} type="artists" title="Top Artists"/>
