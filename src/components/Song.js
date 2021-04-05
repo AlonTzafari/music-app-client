@@ -6,6 +6,7 @@ import albums from '../data/albums.json'
 import artists from '../data/artists.json'
 import playlists from '../data/playlists.json'
 import SongList from './SongList';
+import {getRandomItems} from '../utils'
 
 function useQueary() {
     const quearyParams = new URLSearchParams(useLocation().search);
@@ -20,11 +21,7 @@ function findSongList (params) {
     if (params.artist) source = artists.find(artist => artist.id === params.artist);
     if (params.album) source = albums.find(album => album.id === params.album);
     if (params.playlist) source = playlists.find(playlist => playlist.id === params.playlist);
-    const randomSongs = [];
-    for(let i = 0; i < 10; i++) {
-        const index = Math.floor(Math.random()*songs.length);
-        randomSongs.push(songs[index].id);
-    }
+    const randomSongs = getRandomItems(songs, 10).map(song => song.id);
     if (source) return source.songs;
     return randomSongs;
 }

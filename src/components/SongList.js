@@ -5,8 +5,9 @@ import '../styles/SongList.css'
 
 function SongList({songList}) {
     return (
-        <div>
-            <ul>
+        <div className="listContainer">
+            <h2>Up next</h2>
+            <ul className="songList">
                 {songList.map( (songId, i) => <SongItem key={i} song={songs.find(song => song.id === songId)} />)}
             </ul>
         </div>
