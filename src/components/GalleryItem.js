@@ -1,10 +1,10 @@
-import albums from '../data/albums.json'
 import '../styles/GalleryItem.css'
 import {Link} from 'react-router-dom'
 
 function GalleryItem({item, type}) {
     const src = type === "songs" ?
-        `../images/albums/${albums.find(album => album.name === item.album).cover_img}` :
+        // `../images/albums/${albums.find(album => album.name === item.album).cover_img}` :
+        `http://img.youtube.com/vi/${item.id}/0.jpg` :
         `../images/${type}/${item.cover_img}`;
     //pages
     const page = getPage(type);

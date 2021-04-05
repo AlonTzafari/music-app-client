@@ -1,0 +1,5 @@
+.songItem {
+    display: flex;
+    background-color: rgba(23, 23, 23, 0.666);
+    width: 100%;
+}

@@ -43,6 +43,7 @@ function Song() {
                     <div className="videoDetails">
                         <p>{`Artist: ${song.artist}`}</p>
                         <p>{`Album: ${song.album}`}</p>
+                        <p>{`Length: ${song.length}`}</p>
                         <h3>Lyrics</h3>
                         <p>{song.lyrics}</p>
                     </div>
