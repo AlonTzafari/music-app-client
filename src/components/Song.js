@@ -45,7 +45,7 @@ function Song() {
                         <p>{song.lyrics}</p>
                     </div>
                 </div>
-                <SongList songList={songList}/>
+                <SongList songList={songList} title={"Up next"}/>
             </div>
         </div>
     )
