@@ -16,10 +16,17 @@ function useQueary() {
 }
 
 function findSongList (params) {
-    if (params.artist) return artists.find(artist => artist.id === params.artist).songs;
-    if (params.album) return albums.find(album => album.id === params.album).songs;
-    if (params.playlist) return playlists.find(playlist => playlist.id === params.playlist).songs;
-    return null;
+    let source;
+    if (params.artist) source = artists.find(artist => artist.id === params.artist);
+    if (params.album) source = albums.find(album => album.id === params.album);
+    if (params.playlist) source = playlists.find(playlist => playlist.id === params.playlist);
+    const randomSongs = [];
+    for(let i = 0; i < 10; i++) {
+        const index = Math.floor(Math.random()*songs.length);
+        randomSongs.push(songs[index].id);
+    }
+    if (source) return source.songs;
+    return randomSongs;
 }
  
 function Song() {
