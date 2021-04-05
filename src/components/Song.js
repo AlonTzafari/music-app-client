@@ -7,6 +7,8 @@ import artists from '../data/artists.json'
 import playlists from '../data/playlists.json'
 import SongList from './SongList';
 import {getRandomItems} from '../utils'
+import ErrorBoundary from './ErrorBoundary'
+
 
 function useQueary() {
     const quearyParams = new URLSearchParams(useLocation().search);
@@ -33,20 +35,22 @@ function Song() {
     const songList = findSongList(quearyParams);
     return (
         <div className="song page">
-            <div className="contentGrid">
-                <div className="player">
-                    <h2>{song.name}</h2>
-                    <iframe src={song.youtube_link} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    <div className="videoDetails">
-                        <p>{`Artist: ${song.artist}`}</p>
-                        <p>{`Album: ${song.album}`}</p>
-                        <p>{`Length: ${song.length}`}</p>
-                        <h3>Lyrics</h3>
-                        <p>{song.lyrics}</p>
+            <ErrorBoundary>
+                <div className="contentGrid">
+                    <div className="player">
+                        <h2>{song.name}</h2>
+                        <iframe src={song.youtube_link} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <div className="videoDetails">
+                            <p>{`Artist: ${song.artist}`}</p>
+                            <p>{`Album: ${song.album}`}</p>
+                            <p>{`Length: ${song.length}`}</p>
+                            <h3>Lyrics</h3>
+                            <p>{song.lyrics}</p>
+                        </div>
                     </div>
+                    <SongList songList={songList} title={"Up next"}/>
                 </div>
-                <SongList songList={songList} title={"Up next"}/>
-            </div>
+            </ErrorBoundary>
         </div>
     )
 }
