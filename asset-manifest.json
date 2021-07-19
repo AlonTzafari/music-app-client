@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/music-app-client/static/css/main.dba6163e.chunk.css",
+    "main.js": "/music-app-client/static/js/main.b1869c0b.chunk.js",
+    "main.js.map": "/music-app-client/static/js/main.b1869c0b.chunk.js.map",
+    "runtime-main.js": "/music-app-client/static/js/runtime-main.510466fd.js",
+    "runtime-main.js.map": "/music-app-client/static/js/runtime-main.510466fd.js.map",
+    "static/js/2.f49f75ab.chunk.js": "/music-app-client/static/js/2.f49f75ab.chunk.js",
+    "static/js/2.f49f75ab.chunk.js.map": "/music-app-client/static/js/2.f49f75ab.chunk.js.map",
+    "static/css/3.d4896bad.chunk.css": "/music-app-client/static/css/3.d4896bad.chunk.css",
+    "static/js/3.aea987fb.chunk.js": "/music-app-client/static/js/3.aea987fb.chunk.js",
+    "static/js/3.aea987fb.chunk.js.map": "/music-app-client/static/js/3.aea987fb.chunk.js.map",
+    "static/js/4.755bed53.chunk.js": "/music-app-client/static/js/4.755bed53.chunk.js",
+    "static/js/4.755bed53.chunk.js.map": "/music-app-client/static/js/4.755bed53.chunk.js.map",
+    "index.html": "/music-app-client/index.html",
+    "static/css/3.d4896bad.chunk.css.map": "/music-app-client/static/css/3.d4896bad.chunk.css.map",
+    "static/css/main.dba6163e.chunk.css.map": "/music-app-client/static/css/main.dba6163e.chunk.css.map",
+    "static/js/2.f49f75ab.chunk.js.LICENSE.txt": "/music-app-client/static/js/2.f49f75ab.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.510466fd.js",
+    "static/js/2.f49f75ab.chunk.js",
+    "static/css/main.dba6163e.chunk.css",
+    "static/js/main.b1869c0b.chunk.js"
+  ]
+}
